@@ -1,4 +1,3 @@
-#ASM-FOC
 Torque and speed control of induction machine with three phase two level inverter.
 Created in MATLAB R2021b
 
