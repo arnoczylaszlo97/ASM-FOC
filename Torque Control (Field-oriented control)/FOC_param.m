@@ -34,8 +34,8 @@ CurrCntrl_Umax = Udc/sqrt(3);               % Maximum D-Q voltage limit
 CurrCntrl_Umin = -Udc/sqrt(3);              % Minimum D-Q voltage limit
 CurrCntrl_Ts = Ts_sim;
 
-% MTPA CALCULATED CURRENT INPUTS + SPEED REFERENCE
-%(Lowest current for the reference torque)
+% MTPA CALCULATED CURRENT INPUTS + SPEED REFERENCE (MTPA_STATIC)
+% Lowest current for the reference torque = 40 Nm 
 Id_ref =  21.7848;                           % D - axis current reference
 Iq_ref =  19.8915;                           % Q - axis current reference
 

@@ -1,6 +1,6 @@
-
 Ts_sim = 1e-6;                              % Simulation stepsize for Simulink stepsize and Inverter circuit(Powergui)
-
+                                            % for U/f -> 1e-6
+                                            % for IRR Duty compariosn (C-phase) -> 1e-7
 % For three phase sinus generators
 % Vrms = 230;                               % 1 fázis effektív értéke a max peak számításhoz
 % Vpeak = Vrms*sqrt(2);                     % Input three phase AC voltages (Va_ref,Vb_ref,Vc_ref) peak voltage
